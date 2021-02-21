@@ -24,5 +24,4 @@ function somar() {
     var n2 = Number(tn2.value)
     var s = n1 + n2
     res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${s}</strong>`
-    
 }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Br ou Gringo</title>
+</head>
+<body>
+    <h1>BR ou GRINGO</h1>
+    Digite seu país: <input type="text" name="pais" id="pais"> <input type="button" value="Verificar" onclick="definir()">
+    <div id="res">
+        <p>Resultado</p>
+    </div>
+
+
+    <script>
+        function definir() {
+            var local = window.document.querySelector('input#pais')
+            var res = window.document.querySelector('div#res')
+            var p = String(local.value)
+            if (p == 'Brasil') {
+                res.innerHTML = `Você é BR`
+            } else {
+                res.innerHTML = `Você é gringo e vive em ${p}`
+            } if (p == 'China') {
+                res.innerHTML = `Você mora na China. É asiático.`
+            } if (p == 'USA') {
+                res.innerHTML = `Você mora nos USA e é puro GRINGO!`
+            }
+        }
+    </script>
+</body>
+</html>
