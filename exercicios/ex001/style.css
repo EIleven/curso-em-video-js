@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to right, #1cdfecdc, #0227f8e8 );
+    
+    perspective: 1000px;
+
+    font: normal 15pt Arial;
+}
+
+header {
+    color: rgb(22, 20, 20);
+    text-align: center;
+}
+
+section {
+    background: linen;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+
+    box-shadow: 5px 5px 10px rgb(22, 20, 20);
+}
+
+footer {
+    color: rgb(22, 20, 20);
+    text-align: center;
+    font-style: italic;
+}
